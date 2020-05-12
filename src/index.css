@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main{
+  height: 100vh;
+  padding: 80px;
+}
+
+.list_layout{
+  height: 600px;
+  border: 1px solid gray;
+  border-radius: 5%;
+}
+.header_layout{
+  height: 150px;
+}
+.add_user{
+  bottom: 5px;
+  position: absolute !important;
+  text-align: right;
+}
+
+.text_field{
+  margin: 0 0 20px 0;
+}
+
+.action_layout{
+  position: absolute;
+  right: 0;
+}
+
+.delete_button{
+  height: 30px;
+  padding: 0 10px !important;
+  margin: 0 5px;
+}
+
+.save_button{
+  margin: 50px 0;
+}
+
+.header{
+  padding: 50px 0 0;
+}
+
+.header_id {
+  width: 70px;
+}
+
+.header_action{
+  width: 160px;
+}
