@@ -36,8 +36,7 @@ code {
 }
 
 .action_layout{
-  position: absolute;
-  right: 0;
+  text-align: right ;
 }
 
 .delete_button{
@@ -59,5 +58,11 @@ code {
 }
 
 .header_action{
-  width: 160px;
+  width: 200px;
+}
+
+.table_scroll{
+  border: 1px solid gray;
+  height: 430px;
+  overflow-y: auto;
 }
