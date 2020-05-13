@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, ListGroup } from 'react-bootstrap';
+import { Table } from 'react-bootstrap';
 import CommonButton from './CommonButton';
  
 const ListTable = (props) => {
